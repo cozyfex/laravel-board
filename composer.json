@@ -1,0 +1,41 @@
+{
+    "name": "cozyfex/laravel-baord",
+    "description": "Laravel Board Base",
+    "keywords": [
+        "breeze",
+        "username"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/cozyfex/laravel-board/issues",
+        "source": "https://github.com/cozyfex/laravel-board"
+    },
+    "authors": [
+        {
+            "name": "Felix D.H. Kang",
+            "email": "cozyfex@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.0.0",
+        "laravel/breeze": "^1.1.8",
+        "cozyfex/laravel-design": "^1.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CozyFex\\LaravelBoard\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "CozyFex\\LaravelBoard\\BoardServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
